@@ -1,0 +1,8 @@
+﻿  AppServer.cpp
+D:\Professional\Other\PartielServer\PartielServer\AppServer.cpp(85,15): warning C4244: 'return' : conversion de 'WPARAM' en 'int', perte possible de données
+  Server.cpp
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 15 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  PartielServer.vcxproj -> D:\Professional\Other\PartielServer\x64\Release\PartielServer.exe

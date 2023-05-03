@@ -1,0 +1,3 @@
+﻿  WinMessHandler.cpp
+D:\Professional\Other\PartielServer\PartielServer\WinMessHandler.cpp(76): warning C4715: 'WinMessHandler::MainWndProc' : les chemins de contrôle ne retournent pas tous une valeur
+  PartielServer.vcxproj -> D:\Professional\Other\PartielServer\x64\Debug\PartielServer.exe
