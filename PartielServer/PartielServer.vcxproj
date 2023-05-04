@@ -130,6 +130,7 @@
     <ClCompile Include="AppServer.cpp" />
     <ClCompile Include="CResult.cpp" />
     <ClCompile Include="QueueMessageManager.cpp" />
+    <ClCompile Include="Rooter.cpp" />
     <ClCompile Include="SClient.cpp" />
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="SMessage.cpp" />
@@ -139,6 +140,7 @@
     <ClInclude Include="CResult.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="QueueMessageManager.h" />
+    <ClInclude Include="Rooter.h" />
     <ClInclude Include="SClient.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="SMessage.h" />

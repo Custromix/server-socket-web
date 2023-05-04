@@ -138,8 +138,11 @@ void Server::ReceiveFromClient(SClient* emitter)
 
     if (num_bytes_received != SOCKET_ERROR)
     {
-        OutputDebugStringA(buffer.substr(0, num_bytes_received).c_str());
+        printf(buffer.substr(0, num_bytes_received).c_str());
         queueReceive->EnqueueMessage(buffer.substr(0, num_bytes_received), emitter);
+    }
+    else {
+        Stop();
     }
 
     

@@ -25,6 +25,7 @@
 
 using namespace std;
 
+#include "Rooter.h"
 #include "SClient.h"
 #include "SMessage.h"
 #include "CResult.h"

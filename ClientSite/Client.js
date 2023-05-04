@@ -1,6 +1,6 @@
 const serverUrl = "http://127.0.0.1:28489";
 
-fetch(serverUrl)
+/*fetch(serverUrl)
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
@@ -12,4 +12,4 @@ fetch(serverUrl)
     })
     .catch(error => {
         console.error(`Fetch error: ${error}`);
-    });
+    });*/

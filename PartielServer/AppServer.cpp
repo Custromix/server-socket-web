@@ -45,7 +45,7 @@ int WINAPI WinMain(HINSTANCE hinstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
     //std::cout << "Hello, world!" << std::endl;
 
-    Server* server = new Server(28489, 2, hwnd);
+    Server* server = new Server(8080, 2, hwnd);
 
     try {
 

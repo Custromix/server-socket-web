@@ -1,3 +1,7 @@
-﻿  WinMessHandler.cpp
-D:\Professional\Other\PartielServer\PartielServer\WinMessHandler.cpp(76): warning C4715: 'WinMessHandler::MainWndProc' : les chemins de contrôle ne retournent pas tous une valeur
-  PartielServer.vcxproj -> D:\Professional\Other\PartielServer\x64\Debug\PartielServer.exe
+﻿  Server.cpp
+C:\Users\asabi\Documents\GitHub\server-socket-web\PartielServer\Server.cpp(128,8): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\asabi\Documents\GitHub\server-socket-web\PartielServer\Server.cpp(137,86): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+  WinMessHandler.cpp
+  Génération de code en cours...
+C:\Users\asabi\Documents\GitHub\server-socket-web\PartielServer\WinMessHandler.cpp(76): warning C4715: 'WinMessHandler::MainWndProc' : les chemins de contrôle ne retournent pas tous une valeur
+  PartielServer.vcxproj -> C:\Users\asabi\Documents\GitHub\server-socket-web\x64\Debug\PartielServer.exe

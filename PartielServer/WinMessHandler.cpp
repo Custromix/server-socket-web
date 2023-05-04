@@ -7,7 +7,6 @@ LRESULT CALLBACK WinMessHandler::MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam
     switch (uMsg)
     {
     case WM_CREATE:
-        OutputDebugStringA("BLAKATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n");
         return 0;
 
     case WM_PAINT:
@@ -29,8 +28,9 @@ LRESULT CALLBACK WinMessHandler::MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam
             {
                 if (pServer->GetClients()->size() < pServer->GetSlot())
                 {
+
                     if (pServer->Connect(wParam)) {
-                        OutputDebugStringA("Client connecté ! \n");
+                        printf("Client connecté ! \n");
                     }
                 }
 
@@ -58,7 +58,12 @@ LRESULT CALLBACK WinMessHandler::MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam
 
             case FD_CLOSE: 
             {
-                OutputDebugStringA("PAS COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\n");
+                SOCKET emitSock = (SOCKET)wParam;
+                SClient* emitter = new SClient(emitSock, hwnd);
+
+                closesocket(emitSock);
+                delete emitter;
+                printf("Le client s'est déconnecté\n");
                 break;
             }
         }
